@@ -1,2 +1,8 @@
 .buttonRow {
+    /* scroll bar horizontally */
+    white-space: nowrap;
+    overflow-x: auto;
+    margin-left: -24px;
+    margin-right: -24px;
+    padding-left: 24px;
 }

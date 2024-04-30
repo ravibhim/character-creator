@@ -16,13 +16,6 @@ body {
   box-sizing: border-box;
 }
 
-.perspective {
-  position: sticky;
-  bottom:0px;
-  z-index: -1;
-  height: 40%;
-  background: hsl(195deg, 20%, 86%);
-}
 
 /*
   A utility class to totally remove something from the screen,
