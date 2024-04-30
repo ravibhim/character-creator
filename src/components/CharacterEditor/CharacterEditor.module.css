@@ -31,7 +31,7 @@
 
 .characterWrapper {
   position: fixed;
-  top: 200px;
+  top: 100px;
   right: 80px;
   min-height: 500px;
   width: 500px;
@@ -39,4 +39,11 @@
 
 .controlColumn {
   width: 50%;
+}
+
+.controlColumn div {
+  /* scroll bar horizontally */
+  white-space: nowrap;
+  width: 100%;
+  overflow-x: auto;
 }
